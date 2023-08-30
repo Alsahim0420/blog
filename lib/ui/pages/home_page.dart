@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:pablos_blog/providers/page_provider.dart';
+import 'package:sscc_blog/providers/page_provider.dart';
 
-import 'package:pablos_blog/ui/shared/custom_app_menu.dart';
+import 'package:sscc_blog/ui/shared/custom_app_menu.dart';
 
-import 'package:pablos_blog/ui/views/about_view.dart';
-import 'package:pablos_blog/ui/views/contact_view.dart';
-import 'package:pablos_blog/ui/views/home_view.dart';
-import 'package:pablos_blog/ui/views/pricing_view.dart';
+// import 'package:sscc_blog/ui/views/about_view.dart';
+// import 'package:sscc_blog/ui/views/contact_view.dart';
+import 'package:sscc_blog/ui/views/home_view.dart';
+import 'package:sscc_blog/ui/views/pricing_view.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -44,9 +44,9 @@ class _HomeBody extends StatelessWidget {
       scrollDirection: Axis.vertical,
       children: [
         HomeView(),
-        AboutView(),
+        // AboutView(),
         PricingView(),
-        ContactView(),
+        // ContactView(),
       ],
     );
   }

@@ -10,7 +10,7 @@ class HomeView extends StatelessWidget {
         child: FittedBox(
           fit: BoxFit.contain,
           child: Text(
-            'Pablo Andrés Melo Carvajal \n Blog´s',
+            'Salesianos Cooperadores \nColombia',
             textAlign: TextAlign.center,
             style: GoogleFonts.montserratAlternates(
                 fontSize: 80, fontWeight: FontWeight.bold),

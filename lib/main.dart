@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pablos_blog/services/app_services.dart';
+import 'package:sscc_blog/services/app_services.dart';
 import 'package:provider/provider.dart';
-import 'package:pablos_blog/providers/page_provider.dart';
-import 'package:pablos_blog/router/router.dart';
+import 'package:sscc_blog/providers/page_provider.dart';
+import 'package:sscc_blog/router/router.dart';
 
 void main() => runApp(AppState());
 

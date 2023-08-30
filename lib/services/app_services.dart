@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:pablos_blog/models/opinion_model.dart';
+import 'package:sscc_blog/models/opinion_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AppServices extends ChangeNotifier {

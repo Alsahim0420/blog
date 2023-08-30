@@ -7,9 +7,9 @@ class PageProvider extends ChangeNotifier {
 
   List<String> _pages = [
     'Blog',
-    'about',
-    'Deja tu opinion',
-    'Opiniones',
+    // 'about',
+    'Mapa',
+    // 'Opiniones',
   ];
   int _currentIndex = 0;
 

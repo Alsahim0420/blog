@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:pablos_blog/models/opinion_model.dart';
+import 'package:sscc_blog/models/opinion_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 ///Contains the preferences of the application

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:pablos_blog/services/app_services.dart';
+import 'package:sscc_blog/services/app_services.dart';
 import 'package:provider/provider.dart';
 
 class ContactView extends StatefulWidget {

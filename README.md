@@ -1,4 +1,4 @@
-# pablos_blog
+# sscc_blog
 
 A new Flutter project.
 

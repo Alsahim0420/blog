@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:pablos_blog/providers/page_provider.dart';
-import 'package:pablos_blog/ui/shared/custom_menu_item.dart';
+import 'package:sscc_blog/providers/page_provider.dart';
+import 'package:sscc_blog/ui/shared/custom_menu_item.dart';
 
 class CustomAppMenu extends StatefulWidget {
   @override
@@ -53,18 +53,18 @@ class _CustomAppMenuState extends State<CustomAppMenu>
                     delay: 0,
                     text: 'Blog',
                     onPressed: () => pageProvider.goTo(0)),
-                CustomMenuItem(
-                    delay: 30,
-                    text: 'Temas de discusion',
-                    onPressed: () => pageProvider.goTo(1)),
+                // CustomMenuItem(
+                //     delay: 30,
+                //     text: 'Temas de discusion',
+                //     onPressed: () => pageProvider.goTo(1)),
                 CustomMenuItem(
                     delay: 60,
-                    text: 'Deja tu opinion',
-                    onPressed: () => pageProvider.goTo(2)),
-                CustomMenuItem(
-                    delay: 90,
-                    text: 'Opiniones',
-                    onPressed: () => pageProvider.goTo(3)),
+                    text: 'Mapa',
+                    onPressed: () => pageProvider.goTo(1)),
+                // CustomMenuItem(
+                //     delay: 90,
+                //     text: 'Opiniones',
+                //     onPressed: () => pageProvider.goTo(3)),
                 SizedBox(height: 8)
               ]
             ],

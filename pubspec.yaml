@@ -1,4 +1,4 @@
-name: pablos_blog
+name: sscc_blog
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -26,11 +26,12 @@ dependencies:
   animate_do: ^2.0.0
   cupertino_icons: ^1.0.2
   fluro: ^2.0.3
-  google_fonts: ^2.0.0
+  google_fonts: ^5.1.0
   provider: ^5.0.0
   universal_html: ^2.0.8
   shared_preferences: ^2.1.1
   card_swiper: ^2.0.4
+  mapbox_gl: ^0.16.0
 
 
 dev_dependencies:
