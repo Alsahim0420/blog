@@ -3,7 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:pablos_blog/models/opinion_model.dart';
 import 'package:pablos_blog/providers/page_provider.dart';
 import 'package:pablos_blog/services/app_services.dart';
-import 'package:pablos_blog/services/preferences.dart';
 import 'package:provider/provider.dart';
 
 class PricingView extends StatelessWidget {

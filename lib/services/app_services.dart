@@ -1,9 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
 import 'package:pablos_blog/models/opinion_model.dart';
-import 'package:pablos_blog/services/preferences.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AppServices extends ChangeNotifier {
